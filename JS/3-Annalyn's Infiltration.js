@@ -177,3 +177,33 @@ function canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIs
   } 
 }
 console.log(canFreePrisoner())
+
+// Melhoria ChatGPT: ---------------------------------------------------------
+
+function canExecuteFastAttack(knightIsAwake) {
+  return !knightIsAwake;
+}
+
+console.log(canExecuteFastAttack());
+
+function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
+  return knightIsAwake || archerIsAwake || prisonerIsAwake;
+}
+
+console.log(canSpy());
+
+function canSignalPrisoner(archerIsAwake, prisonerIsAwake) {
+  return !archerIsAwake && prisonerIsAwake;
+}
+
+console.log(canSignalPrisoner());
+
+function canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent) {
+  if (petDogIsPresent) {
+    return !archerIsAwake && !knightIsAwake || !archerIsAwake && knightIsAwake;;
+  } else {
+    return prisonerIsAwake && !archerIsAwake && !knightIsAwake;
+  }
+}
+
+console.log(canFreePrisoner());
