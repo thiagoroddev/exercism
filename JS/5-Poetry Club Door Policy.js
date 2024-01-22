@@ -114,23 +114,22 @@ function frontDoorResponse(line) {
   function frontDoorPassword(word) {
     const firstLetter = word[0].toUpperCase() 
     const remainingLetters = word.slice(1).toLowerCase()
-   return firstLetter + remainingLetters
+    return firstLetter + remainingLetters
   }
   //console.log(frontDoorPassword('SHIRE'))
 
   //task 3
   function backDoorResponse(line) {
-    if (line[line.length-1]) {
-    let lastLetter = line[line.length-1].toUpperCase
-    return lastLetter
-    } else {
-      let secondLastLetter = line[line.length-2].toUpperCase
-      return secondLastLetter
-    }
+    let frase = line.trim()
+    return frase[frase.length-1]
   }
-  console.log(backDoorResponse('Stands so high'))
+  //console.log(backDoorResponse('Stands so high'))
 
   //taks 4
   function backDoorPassword(word) {
-    throw new Error('Remove this line and implement the function');
+    let firstLetter = word[0].toUpperCase()
+    let remainingWord = word.slice(1)
+    return firstLetter + remainingWord + ', please'
+   
   }
+  console.log(backDoorPassword('horse'))
