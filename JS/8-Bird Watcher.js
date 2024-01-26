@@ -77,7 +77,7 @@ function totalBirdCount(birdsPerDay) {
     }
     return totalBirds 
   }
-  console.log(totalBirdCount([2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1]))
+  //console.log(totalBirdCount([2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1]))
 
   /**
    * Calculates the total number of birds seen in a specific week.
@@ -86,9 +86,24 @@ function totalBirdCount(birdsPerDay) {
    * @param {number} week
    * @returns {number} birds counted in the given week
    */
+
+let birdsPerDay = [2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1]
+
 function birdsInWeek(birdsPerDay, week) {
-    throw new Error('Please implement the birdsInWeek function');
-  }
+  let weeks = []
+  
+    for (let index = 0; index < birdsPerDay.length; index++ ) {
+      let passarosDia = birdsPerDay[index]
+      weeks.push(passarosDia)
+      console.log(weeks)
+    }
+   
+}
+
+  console.log(birdsInWeek([2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1]))
+
+  
+ // console.log([2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1], 2, 2)
   
   /**
    * Fixes the counting mistake by increasing the bird count
