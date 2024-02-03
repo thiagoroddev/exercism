@@ -90,14 +90,22 @@ function totalBirdCount(birdsPerDay) {
 let birdsPerDay = [2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1]
 
 function birdsInWeek(birdsPerDay, week) {
-  let weeks = []
+  let weeks = birdsPerDay.length / 7
+  let matriz = []
+  let diaSemana = 0
+  let semana = []
   
-    for (let index = 0; index < birdsPerDay.length; index++ ) {
-      let passarosDia = birdsPerDay[index]
-      weeks.push(passarosDia)
-      console.log(weeks)
+  for (let index = 0; index < birdsPerDay.length ; index++){
+    diaSemana ++
+    semana.push(birdsPerDay[index])
+    if (semana.length == 7) {
+      matriz.push(semana)
+      semana = []
     }
-   
+    
+  }
+  return matriz
+
 }
 
   console.log(birdsInWeek([2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1]))
@@ -116,5 +124,4 @@ function birdsInWeek(birdsPerDay, week) {
     throw new Error('Please implement the fixBirdCountLog function');
   }
   
-
 
