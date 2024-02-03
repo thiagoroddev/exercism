@@ -92,23 +92,25 @@ let birdsPerDay = [2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1]
 function birdsInWeek(birdsPerDay, week) {
   let weeks = birdsPerDay.length / 7
   let matriz = []
-  let diaSemana = 0
   let semana = []
   
   for (let index = 0; index < birdsPerDay.length ; index++){
-    diaSemana ++
     semana.push(birdsPerDay[index])
     if (semana.length == 7) {
       matriz.push(semana)
       semana = []
     }
-    
   }
-  return matriz
+  
+  let semanaEscolhida = matriz[week - 1]
+  const somaSemanaEscolhida = semanaEscolhida.reduce((acumulador, valorAtual)=> {
+     return acumulador + valorAtual
+  }, 0)
 
+  return somaSemanaEscolhida
 }
 
-  console.log(birdsInWeek([2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1]))
+  console.log(birdsInWeek([2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1], 2))
 
   
  // console.log([2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1], 2, 2)
