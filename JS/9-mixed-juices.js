@@ -144,7 +144,7 @@ function limesToCut(wedgesNeeded, limes) {
   let accumulator = 0
   let wedgesLimes = 0
   
-  while (wedgesLimes < wedgesNeeded) {
+  while (wedgesLimes < wedgesNeeded && accumulator < limes.length) {
     switch (limes[accumulator]) {
       case 'small':
         wedgesLimes += 6
@@ -168,6 +168,54 @@ function limesToCut(wedgesNeeded, limes) {
 
 console.log(limesToCut(25, ['small', 'small', 'large', 'medium', 'small']))
 
+
+
+// Como eu fiz
 function remainingOrders(timeLeft, orders) {
-  throw new Error('Please implement the remainingOrders function');
+  let time = 0
+  let juicesMissings = [...orders]
+
+  
+    for (let suco of orders) {
+      console.log(suco)
+      console.log(time)
+    
+      if (time < timeLeft) {
+        if (suco === 'Pure Strawberry Joy') {
+            time += 0.5
+            juicesMissings.shift()
+            console.log('add 0.5')
+
+          } else if (suco === 'Energizer' || suco === 'Green Garden') {
+            time += 1.5
+            juicesMissings.shift()
+            console.log('add 1.5')
+
+
+          } else if (suco === 'Tropical Island') {
+            time += 3
+            juicesMissings.shift()
+            console.log('add 3')
+
+          } else if (suco === 'All or Nothing') {
+            time += 5
+            juicesMissings.shift()
+            console.log('add 5')
+
+          } else {
+            time += 2.5
+            juicesMissings.shift()
+            console.log('add 2.5')
+
+          } 
+      }
+    }
+  
+  return juicesMissings
 }
+
+//console.log(remainingOrders(5, ['Energizer', 'All or Nothing', 'Green Garden']))
+
+
+//Como o ChatGPT fez:
+
