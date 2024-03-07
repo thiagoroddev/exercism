@@ -138,7 +138,7 @@ function revokeTicket(visitor) {
 //Task three
 const tickets = {
     '0H2AZ123': null,
-    '23LA9T41': null,
+    '23LA9T41': 'Verena Nardi',
   };
 
 function ticketStatus(tickets, ticketId) {
@@ -146,23 +146,51 @@ function ticketStatus(tickets, ticketId) {
 
     for (let key in tickets) {
         console.log(`Este é o ticket verificado: ${key}`)
-        if (key == ticketId) {
+        if (key === ticketId) {
             console.log(`${ticketId} está no sistema`)
-            if (tickets[key] == null) {
+            if (tickets[key] === null) {
                 return 'not sold'
             } else {
                 return `sold to ${tickets[[key]]}`
             }
-            
-        } else {
-            console.log(`${key} não corresponde à ${ticketId}`)
-            return "unknow ticket id"
         }
     }
-
-    
+    return 'unknown ticket id'
   }
 
-console.log(ticketStatus(tickets, '0H2AZ123'))
-//console.log(ticketStatus(tickets, '23LA9T411'))
+//console.log(ticketStatus(tickets, '0H2AZ123'))
+//console.log(ticketStatus(tickets, '23LA9T41'))
   
+
+//Task 4
+
+
+function simpleTicketStatus(tickets, ticketId) {
+    for (let id in tickets) {
+        if (id === ticketId && tickets[id] !== null) {
+            return tickets[id]
+        }
+    }
+    return 'invalid ticket'
+  }
+
+  //console.log(simpleTicketStatus(tickets, '0H2AZ123'))
+
+
+  //Task 5
+
+  const visitorNew = {
+    name: 'Verena Nardi',
+    age: 45,
+    ticketId: 'H32AZ123',
+    gtc: {
+        signed: true,
+        version: '2.1',
+    }  
+    };
+
+  function gtcVersion(visitor) {
+   return visitor.gtc?.version
+  }
+
+  console.log(gtcVersion(visitorNew))
