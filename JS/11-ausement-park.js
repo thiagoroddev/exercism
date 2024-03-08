@@ -194,3 +194,5 @@ function simpleTicketStatus(tickets, ticketId) {
   }
 
   console.log(gtcVersion(visitorNew))
+
+  //teste
