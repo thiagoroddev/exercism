@@ -113,12 +113,12 @@ result = birds_in_week(birds_per_day_list, chosen_week_number)
 print(result)
   
 """/**
-  * Fixes the counting mistake by increasing the bird count
-  * by one for every second day.
-  *
-  * @param {number[]} birdsPerDay
-  * @returns {number[]} corrected bird count data
-  """"
+* Fixes the counting mistake by increasing the bird count
+* by one for every second day.
+*
+* @param {number[]} birdsPerDay
+* @returns {number[]} corrected bird count data
+"""
 
 def fix_bird_count_log(birds_per_day):
     for index in range(len(birds_per_day)):
