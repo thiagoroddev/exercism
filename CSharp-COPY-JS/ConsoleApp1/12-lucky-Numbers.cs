@@ -2,53 +2,77 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-public class NumberGames
+
+public class Programas
 {
-    // Task 1: Calculate the sum of two numbers represented by arrays of digits
+    public static void Main()
+    {
+        TwoSum(new int[] { 1, 2, 3 }, new int[] { 0, 7 });
+        LuckyNumber(524425);
+        ErrorMessage(null);
+    }
+
     public static int TwoSum(int[] array1, int[] array2)
     {
-        int number1 = int.Parse(string.Join("", array1));
-        int number2 = int.Parse(string.Join("", array2));
-        return number1 + number2;
-    }
+        string somaUm = "";
+        string somaDois = "";
 
-    // Task 2: Check if a number is a palindrome
-    public static bool LuckyNumber(int number)
-    {
-        string numberString = number.ToString();
-        return numberString.SequenceEqual(numberString.Reverse());
-    }
-
-    // Task 3: Validate user input
-    public static string ErrorMessage(string input)
-    {
-        if (string.IsNullOrWhiteSpace(input))
+        foreach (int element in array1)
         {
+            somaUm += element.ToString();
+        }
+
+        foreach (int element in array2)
+        {
+            somaDois += element.ToString();
+        }
+
+        int somaTotal = int.Parse(somaUm) + int.Parse(somaDois);
+        Console.WriteLine(somaTotal);
+        return somaTotal;
+    }
+
+    // Task 2
+    public static bool LuckyNumber(int value)
+    {
+        string valorOriginalString = value.ToString();
+        char[] valorInvertidoArray = valorOriginalString.ToCharArray();
+        Array.Reverse(valorInvertidoArray);
+        string valorInvertido = new string(valorInvertidoArray);
+
+        Console.WriteLine(valorInvertido);
+        Console.WriteLine(valorOriginalString);
+
+        bool isLucky = valorOriginalString == valorInvertido;
+        Console.WriteLine(isLucky ? "True" : "False");
+        return isLucky;
+    }
+
+    // Task 3
+    public static string ErrorMessage(object input)
+    {
+        if (input == null || input.ToString().Trim() == "")
+        {
+            Console.WriteLine("Required field");
             return "Required field";
         }
-        else if (!int.TryParse(input, out int number))
+
+        try
         {
-            return "Must be a number besides 0";
+            double parsedNumber = double.Parse(input.ToString());
+            if (parsedNumber == 0)
+            {
+                Console.WriteLine("Must be a number besides 0");
+                return "Must be a number besides 0";
+            }
         }
-        else
+        catch (FormatException)
         {
-            return "";
+            Console.WriteLine("Must be a number");
+            return "Must be a number";
         }
-    }
 
-    public static void Main(string[] args)
-    {
-        // Teste das funções
-        int[] array1 = { 1, 2, 3 };
-        int[] array2 = { 0, 7 };
-
-        Console.WriteLine("Two sum: " + TwoSum(array1, array2));
-
-        Console.WriteLine("Lucky number: " + LuckyNumber(1441));
-        Console.WriteLine("Lucky number: " + LuckyNumber(123));
-
-        Console.WriteLine("Error message: " + ErrorMessage("123"));
-        Console.WriteLine("Error message: " + ErrorMessage(""));
-        Console.WriteLine("Error message: " + ErrorMessage("abc"));
+        Console.WriteLine("Empty");
+        return "";
     }
 }
