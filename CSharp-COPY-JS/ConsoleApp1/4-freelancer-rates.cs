@@ -17,7 +17,7 @@ daysInBudget(20000, 89);
 Often, the freelancer's clients hire them for projects spanning over multiple months. In these cases, the freelancer decides to offer a discount for every full month, and the remaining days are billed at day rate. Every month has 22 billable days. Help them estimate their cost for such projects, given an hourly rate, the number of days the project spans, and a monthly discount rate. The discount is always passed as a number, where 42% becomes 0.42. The result must be rounded up to the nearest whole number.
 
 priceWithMonthlyDiscount(89, 230, 0.42);
-// => 97972 */ 
+// => 97972 */
 
 
 /*Instruções
@@ -39,11 +39,11 @@ diasInBudget(20000, 89);
 Freqüentemente, os clientes do freelancer os contratam para projetos que duram vários meses. Nestes casos, o freelancer decide oferecer um desconto para cada mês completo, e os dias restantes são cobrados à diária. Cada mês tem 22 dias faturáveis. Ajude-os a estimar o custo desses projetos, considerando uma taxa horária, o número de dias que o projeto dura e uma taxa de desconto mensal. O desconto é sempre passado como um número, onde 42% vira 0,42. O resultado deve ser arredondado para o número inteiro mais próximo.
 
 preçoComDescontoMensal(89, 230, 0,42);
-// => 97972*/ 
+// => 97972*/
 
 using System;
 
-public class Program
+public class Program4
 {
     // 1. Calcula a taxa diária dada uma taxa horária
     public static int DayRate(int ratePerHour)

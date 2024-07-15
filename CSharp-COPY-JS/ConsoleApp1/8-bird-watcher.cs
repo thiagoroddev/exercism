@@ -53,11 +53,11 @@ Given this new information, write a function fixBirdCountLog that takes an array
 birdsPerDay = [2, 5, 0, 7, 4, 1];
 fixBirdCountLog(birdsPerDay);
 // => [3, 5, 1, 7, 5, 1]
-*/ 
+*/
 
 using System;
 
-public class Program
+public class Program8
 {
     // Task 1
     public static int TotalBirdCount(int[] birdsPerDay)
@@ -76,7 +76,7 @@ public class Program
         int[][] weeks = new int[birdsPerDay.Length / 7][];
         int[] currentWeek = new int[7];
         int currentWeekIndex = 0;
-        
+
         foreach (int count in birdsPerDay)
         {
             currentWeek[currentWeekIndex++] = count;
@@ -87,7 +87,7 @@ public class Program
                 currentWeekIndex = 0;
             }
         }
-        
+
         int sum = 0;
         foreach (int count in weeks[week])
         {
@@ -112,7 +112,7 @@ public class Program
     public static void Main(string[] args)
     {
         // Task 1
-        int[] birdsPerDay = {2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1};
+        int[] birdsPerDay = { 2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1 };
         Console.WriteLine("Total Bird Count: " + TotalBirdCount(birdsPerDay));
 
         // Task 2

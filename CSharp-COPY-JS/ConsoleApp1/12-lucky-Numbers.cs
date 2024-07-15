@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-public class Programas
+public class Program12
 {
     public static void Main()
     {

@@ -1,0 +1,15 @@
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\bin\Debug\net8.0\3-annalyn's-infiltration.exe
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\bin\Debug\net8.0\3-annalyn's-infiltration.deps.json
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\bin\Debug\net8.0\3-annalyn's-infiltration.runtimeconfig.json
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\bin\Debug\net8.0\3-annalyn's-infiltration.dll
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\bin\Debug\net8.0\3-annalyn's-infiltration.pdb
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\3-annalyn's-infiltration.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\3-annalyn's-infiltration.AssemblyInfoInputs.cache
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\3-annalyn's-infiltration.AssemblyInfo.cs
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\3-annalyn's-infiltration.csproj.CoreCompileInputs.cache
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\3-annalyn's-infiltration.sourcelink.json
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\3-annalyn's-infiltration.dll
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\refint\3-annalyn's-infiltration.dll
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\3-annalyn's-infiltration.pdb
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\3-annalyn's-infiltration.genruntimeconfig.cache
+D:\DEVTH\exercism\CSHARP-COPY\3-annalyn's-infiltration\obj\Debug\net8.0\ref\3-annalyn's-infiltration.dll

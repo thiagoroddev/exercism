@@ -48,7 +48,7 @@ const archerIsAwake = verdadeiro;
 const prisioneiroIsAwake = falso;
 const petDogIsPresent = falso;
 canFreePrisoner(cavaleiroIsAwake, arqueiroIsAwake, prisioneiroIsAwake, petDogIsPresent);
-// => falso*/ 
+// => falso*/
 
 
 using System;

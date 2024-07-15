@@ -13,3 +13,11 @@
 /home/ubuntu-vm/Documents/repository-ubuntu/exercism/CSharp/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
 /home/ubuntu-vm/Documents/repository-ubuntu/exercism/CSharp/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
 /home/ubuntu-vm/Documents/repository-ubuntu/exercism/CSharp/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll
+D:\DEVTH\exercism\CSharp-COPY-JS\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEVTH\exercism\CSharp-COPY-JS\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\DEVTH\exercism\CSharp-COPY-JS\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+D:\DEVTH\exercism\CSharp-COPY-JS\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\DEVTH\exercism\CSharp-COPY-JS\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json
+D:\DEVTH\exercism\CSharp-COPY-JS\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+D:\DEVTH\exercism\CSharp-COPY-JS\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+D:\DEVTH\exercism\CSharp-COPY-JS\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb

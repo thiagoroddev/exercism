@@ -99,11 +99,11 @@ Implement the function backDoorPassword that accepts a string (the combined lett
 
 backDoorPassword('horse');
 //=> "Horse, please"
-*/ 
+*/
 
 using System;
 
-public class Program
+public class Program5
 {
     // Task 1
     public static char FrontDoorResponse(string line)

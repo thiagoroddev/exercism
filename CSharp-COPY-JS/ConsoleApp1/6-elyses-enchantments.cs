@@ -122,12 +122,12 @@ Check whether the size of the stack is equal to stackSize or not.
 const stackSize = 4;
 checkSizeOfStack([3, 2, 6, 4, 8], stackSize);
 // => false
-*/ 
+*/
 
 using System;
 using System.Collections.Generic;
 
-public class Program
+public class Program6
 {
     // Task 1
     public static int GetItem(List<int> cards, int position)

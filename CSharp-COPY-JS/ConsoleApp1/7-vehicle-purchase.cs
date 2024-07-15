@@ -100,55 +100,55 @@ calculateResellPrice(1000, 15);
 
 using System;
 
-public class Program
+public class Program7
 {
-    // Task 1
-    public static bool NeedsLicense(string kind)
+  // Task 1
+  public static bool NeedsLicense(string kind)
+  {
+    return kind == "car" || kind == "truck";
+  }
+
+  // Task 2
+  public static string ChooseVehicle(string option1, string option2)
+  {
+    if (string.Compare(option1, option2) > 0)
     {
-        return kind == "car" || kind == "truck";
+      return $"{option2} is clearly the better choice.";
     }
+    else
+    {
+      return $"{option1} is clearly the better choice.";
+    }
+  }
+
+  // Task 3
+  public static double CalculateResellPrice(double originalPrice, int age)
+  {
+    if (age > 10)
+    {
+      return 0.5 * originalPrice;
+    }
+    else if (age < 3)
+    {
+      return 0.8 * originalPrice;
+    }
+    else
+    {
+      return 0.7 * originalPrice;
+    }
+  }
+
+  public static void Main(string[] args)
+  {
+    // Task 1
+    Console.WriteLine("Needs license for car: " + NeedsLicense("car"));
+    Console.WriteLine("Needs license for bike: " + NeedsLicense("bike"));
 
     // Task 2
-    public static string ChooseVehicle(string option1, string option2)
-    {
-        if (string.Compare(option1, option2) > 0)
-        {
-            return $"{option2} is clearly the better choice.";
-        }
-        else
-        {
-            return $"{option1} is clearly the better choice.";
-        }
-    }
+    Console.WriteLine(ChooseVehicle("Wuling Hongguang", "Toyota Corolla"));
+    Console.WriteLine(ChooseVehicle("Volkswagen Beetle", "Volkswagen Golf"));
 
     // Task 3
-    public static double CalculateResellPrice(double originalPrice, int age)
-    {
-        if (age > 10)
-        {
-            return 0.5 * originalPrice;
-        }
-        else if (age < 3)
-        {
-            return 0.8 * originalPrice;
-        }
-        else
-        {
-            return 0.7 * originalPrice;
-        }
-    }
-
-    public static void Main(string[] args)
-    {
-        // Task 1
-        Console.WriteLine("Needs license for car: " + NeedsLicense("car"));
-        Console.WriteLine("Needs license for bike: " + NeedsLicense("bike"));
-
-        // Task 2
-        Console.WriteLine(ChooseVehicle("Wuling Hongguang", "Toyota Corolla"));
-        Console.WriteLine(ChooseVehicle("Volkswagen Beetle", "Volkswagen Golf"));
-
-        // Task 3
-        Console.WriteLine("Resell price: " + CalculateResellPrice(1000, 15));
-    }
+    Console.WriteLine("Resell price: " + CalculateResellPrice(1000, 15));
+  }
 }
