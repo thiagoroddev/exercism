@@ -1,0 +1,15 @@
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\bin\Debug\net8.0\13-lasagna-master.exe
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\bin\Debug\net8.0\13-lasagna-master.deps.json
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\bin\Debug\net8.0\13-lasagna-master.runtimeconfig.json
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\bin\Debug\net8.0\13-lasagna-master.dll
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\bin\Debug\net8.0\13-lasagna-master.pdb
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\13-lasagna-master.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\13-lasagna-master.AssemblyInfoInputs.cache
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\13-lasagna-master.AssemblyInfo.cs
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\13-lasagna-master.csproj.CoreCompileInputs.cache
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\13-lasagna-master.sourcelink.json
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\13-lasagna-master.dll
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\refint\13-lasagna-master.dll
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\13-lasagna-master.pdb
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\13-lasagna-master.genruntimeconfig.cache
+D:\DEVTH\exercism\CSHARP-COPY\13-lasagna-master\obj\Debug\net8.0\ref\13-lasagna-master.dll

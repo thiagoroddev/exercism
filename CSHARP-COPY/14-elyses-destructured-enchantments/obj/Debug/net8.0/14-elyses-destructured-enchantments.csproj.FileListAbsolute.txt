@@ -1,0 +1,15 @@
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\14-elyses-destructured-enchantments.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\14-elyses-destructured-enchantments.AssemblyInfoInputs.cache
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\14-elyses-destructured-enchantments.AssemblyInfo.cs
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\14-elyses-destructured-enchantments.csproj.CoreCompileInputs.cache
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\14-elyses-destructured-enchantments.sourcelink.json
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\bin\Debug\net8.0\14-elyses-destructured-enchantments.exe
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\bin\Debug\net8.0\14-elyses-destructured-enchantments.deps.json
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\bin\Debug\net8.0\14-elyses-destructured-enchantments.runtimeconfig.json
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\bin\Debug\net8.0\14-elyses-destructured-enchantments.dll
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\bin\Debug\net8.0\14-elyses-destructured-enchantments.pdb
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\14-elyses-destructured-enchantments.dll
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\refint\14-elyses-destructured-enchantments.dll
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\14-elyses-destructured-enchantments.pdb
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\14-elyses-destructured-enchantments.genruntimeconfig.cache
+D:\DEVTH\exercism\CSHARP-COPY\14-elyses-destructured-enchantments\obj\Debug\net8.0\ref\14-elyses-destructured-enchantments.dll
